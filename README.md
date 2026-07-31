@@ -56,6 +56,10 @@ Principais variáveis:
 
 ## Visualizações
 
+### Distribuição de tipos de clientes
+
+![Distribuição de tipos de clientes](assets/distribuição_de_tipos_de_clientes.png)
+
 ### Faturamento por filial
 
 ![Faturamento total por filial](assets/faturamento_filial.png)
@@ -63,6 +67,10 @@ Principais variáveis:
 ### Ticket médio por categoria
 
 ![Ticket médio por categoria](assets/ticket_medio_categoria.png)
+
+### Participação das filiais por categoria
+
+![Participação das filiais por categoria](assets/participação_das_filiais_por_categoria.png)
 
 ## Conclusão
 
@@ -75,11 +83,14 @@ Como os dados são observacionais e fictícios, os resultados indicam associaç�
 ```text
 supermarket-sales-analysis/
 ├── assets/
+|   ├── distribuição_de_tipos_de_clientes.png
 │   ├── faturamento_filial.png
-│   └── ticket_medio_categoria.png
+│   ├── ticket_medio_categoria.png
+|	└── participação_das_filiais_por_categoria.png
 ├── data/
 │   └── sales.csv
 ├── .gitignore
+├── LICENSE
 ├── README.md
 ├── requirements.txt
 └── supermarket_sales_analysis.ipynb
@@ -100,3 +111,7 @@ pip install -r requirements.txt
 ## Autor
 
 Projeto desenvolvido por **Rômison Carvalho** como parte dos estudos de Python e Análise de Dados.
+
+## Licença
+
+Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
